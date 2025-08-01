@@ -38,7 +38,7 @@ h3{
 }
 
 p{
-    font-size: 24px;
+    font-size: 20px;
     letter-spacing: 1px;
     font-weight: 300;
     /* letter-spacing: 2px; */
@@ -70,24 +70,19 @@ header {
   z-index: 50;
 }
 
-.nav_mid{
-  width: 50vw;
-  height: 100px;
-  display: flex;
- justify-content: space-between; 
- align-items: center;
-
- overflow: hidden;
-}
 
 nav {
+  height: 100%;
+  width: 100vw;
   padding-top: 12px;
   padding-bottom: 12px;
-  height: 100%;
+  padding-inline: 10%;
+  
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-
+  
+  /* background-color: #eeeeee; */
 }
 
 .nav-top {
@@ -95,6 +90,31 @@ nav {
   width: 100vw;
   display: flex;
   background-color: hsl(0, 0%, 10%);
+}
+
+.nav_mid{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  
+  overflow: hidden;
+  /* background-color: orange; */
+}
+
+#logo {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 500;
+  color:rgb(238, 238, 248);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 30%;
 }
 
 ul {
@@ -115,12 +135,35 @@ ul li a {
   color:rgb(240, 240, 247);
 }
 
-#logo {
-  font-size: 40px;
-  text-transform: uppercase;
-  font-weight: 500;
-  color:rgb(238, 238, 248);
+.search-form{
+  display: flex;
+  gap: 10px;
 }
+
+.search-textbox{
+  padding-inline:20px; 
+  padding-block: 6px; 
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.search-button
+{
+  width: fit-content;
+  padding-block: 10px;
+  padding-inline: 30px;
+  border-radius: 5px;
+  border: 1px solid orange;
+
+  background-color: orange;
+
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 550;
+  letter-spacing: 1px;
+  color: #1a1a1a;
+}
+
 
 /* Home Screen */
 #home {
@@ -330,14 +373,14 @@ ul li a {
 .gal-button{
   width: fit-content;
   padding-block: 10px;
-  padding-inline: 25px;
+  padding-inline: 30px;
   border-radius: 5px;
   border: 1px solid orange;
 
   background-color: orange;
 
   text-transform: uppercase;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 550;
   letter-spacing: 1px;
   color: #1a1a1a;

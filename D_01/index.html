@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <!-- ----------------------------------------------------------------------- -->
 <html lang="en">
   <!-- ----------------------------------------------------------------------- -->
@@ -30,24 +30,19 @@
             <!-- ----------------------------------------------------------------------- -->
             <!-- Left -->
             <!-- ----------------------------------------------------------------------- -->
-            <div>
-              <ul>
-                <li><a href="#">Home</a></li>
-              </ul>
-            </div>
-            <div>
-              <ul>
-                <li><a href="#about">About</a></li>
-              </ul>
-            </div>
-            <!-- ----------------------------------------------------------------------- -->
-            <!-- Mid -->
-            <!-- ----------------------------------------------------------------------- -->
             <div id="logo">VISUAL SYMPHONY</div>
-            <!-- ----------------------------------------------------------------------- -->
-            <!-- Right -->
-            <!-- ----------------------------------------------------------------------- -->
-              <!-- ----------------------------------------------------------------------- -->
+            
+            <div class="nav-links">
+              <div>
+                <ul>
+                  <li><a href="#">Home</a></li>
+                </ul>
+              </div>
+              <div>
+                <ul>
+                  <li><a href="#about">About</a></li>
+                </ul>
+              </div>
               <div>
                 <ul>
                   <li><a href="#">Services</a></li>
@@ -58,11 +53,15 @@
                   <li><a href="#gallery">Gallery</a></li>
                 </ul>
               </div>
-              <!-- ----------------------------------------------------------------------- -->
-              <!-- <button></button> -->
-              <!-- ----------------------------------------------------------------------- -->
             </div>
             <!-- ----------------------------------------------------------------------- -->
+            <form action="/search" method="GET" class="search-form">
+              <input type="text" name="query" placeholder="Search..." class="search-textbox" />
+              <button type="submit" class="search-button">Search</button>
+            </form>
+            <!-- ----------------------------------------------------------------------- -->
+          </div>
+          <!-- ----------------------------------------------------------------------- -->
         </nav>
         <!-- ----------------------------------------------------------------------- -->
       </div>
@@ -98,26 +97,26 @@
             <h2>VISUAL SYMPHONY</h2>
           </div>
           <!-- ----------------------------------------------------------------------- -->
-          <div class="about-p" style="margin-block: 10vh;">
+          <div class="about-p" style="margin-block: 10vh">
             <!-- ----------------------------------------------------------------------- -->
             <p>
-              Welcome to Visual Symphony, a vibrant online gallery showcasing five
-              captivating art forms: Historical Art, Pencil Art, Anime Art, Street
-              Art, and Digital Art. Explore curated galleries for each style,
-              enjoy our Artist Spotlight feature that highlights incredible
-              talent, and join the conversation by leaving comments and sharing
-              your thoughts on your favorite pieces. Dive into the world of
-              creativity,all in one place!.
+              Welcome to Visual Symphony, a vibrant online gallery showcasing
+              five captivating art forms: Historical Art, Pencil Art, Anime Art,
+              Street Art, and Digital Art. Explore curated galleries for each
+              style, enjoy our Artist Spotlight feature that highlights
+              incredible talent, and join the conversation by leaving comments
+              and sharing your thoughts on your favorite pieces. Dive into the
+              world of creativity,all in one place!.
             </p>
             <!-- ----------------------------------------------------------------------- -->
-  
+
             <!-- ----------------------------------------------------------------------- -->
           </div>
         </div>
       </section>
       <!-- ----------------------------------------------------------------------- -->
       <!-- ----------------------------------------------------------------------- -->
-      <section id="gallery" style="margin-bottom: 10vh;">
+      <section id="gallery" style="margin-bottom: 10vh">
         <!-- ----------------------------------------------------------------------- -->
         <div class="container">
           <!-- ----------------------------------------------------------------------- -->
@@ -126,9 +125,9 @@
             <div class="g-text-top">
               <!-- ----------------------------------------------------------------------- -->
               <div class="about-top">
-            <p>Visit Our</p>
-            <h2>Gallery</h2>
-          </div>
+                <p>Visit Our</p>
+                <h2>Gallery</h2>
+              </div>
               <!-- ----------------------------------------------------------------------- -->
             </div>
             <!-- ----------------------------------------------------------------------- -->
@@ -162,7 +161,7 @@
                   alt=""
                 />
                 <h3>Digital Art</h3>
-  
+
                 <a class="gal-button" href="./digital_art.html">Explore</a>
               </div>
               <!-- ----------------------------------------------------------------------- -->
@@ -170,7 +169,7 @@
                 <!-- <a href="http://127.0.0.1:5500/Html-Css/gallery.html"> -->
                 <img src="./src/home/art_photos/photo6.jpeg" alt="" />
                 <h3>Street Art</h3>
-  
+
                 <a class="gal-button" href="./street_art.html">Explore</a>
                 <!-- </a> -->
               </div>
@@ -181,7 +180,7 @@
                   alt=""
                 />
                 <h3>Anime Art</h3>
-  
+
                 <a class="gal-button" href="./anime_art.html">Explore</a>
               </div>
               <!-- ----------------------------------------------------------------------- -->
@@ -189,8 +188,20 @@
             <!-- ----------------------------------------------------------------------- -->
           </div>
           <!-- ----------------------------------------------------------------------- -->
-          <div class="gal-button" style="width: 30%; margin-inline: auto; text-align: center; margin-top: 10px; padding-block: 20px; font-size: 24px;">
-            <a href="./gallery.html" style="color: #000000;">View All</a>
+          <div
+            class="gal-button"
+            style="
+              width: 30%;
+              margin-inline: auto;
+              text-align: center;
+              margin-top: 10px;
+              padding-block: 20px;
+              font-size: 24px;
+            "
+          >
+            <a href="./gallery.html" style="color: #000000">View All</a>
+          </div>
+          <!-- ----------------------------------------------------------------------- -->
         </div>
         <!-- ----------------------------------------------------------------------- -->
       </section>
@@ -202,18 +213,19 @@
     </main>
     <!-- ----------------------------------------------------------------------- -->
     <!-- ----------------------------------------------------------------------- -->
-     <footer>
+    <footer>
       <!-- ----------------------------------------------------------------------- -->
       <div class="footer-content">
         <div class="footer-content-left">
           <h3>Visual Symphony</h3>
           <p>
             Visual Symphony is a digital space that celebrates five iconic art
-            styles: Historical, Pencil, Anime, <br> Street, and Digital Art. <br> We aim
-            to inspire creativity and connect art lovers worldwide. 
+            styles: Historical, Pencil, Anime, <br />
+            Street, and Digital Art. <br />
+            We aim to inspire creativity and connect art lovers worldwide.
           </p>
         </div>
-        <div class="footer-content-mid">
+        <div class="footer-content-mid w-fit">
           <h3>Quick Links</h3>
           <ul>
             <li><a href="#">Home</a></li>
@@ -248,12 +260,27 @@
           </div>
           <!-- ----------------------------------------------------------------------- -->
           <div class="footer-socials">
-            <p>Follow us on 
-            </p>
-            <img src="./src/img/icons/facebook.png" alt="" style="width: 36px;">
-            <img src="./src/img/icons/instagram.png"alt="" style="width: 36px;">
-            <img src="./src/img/icons/linkedin.png" alt="" style="width: 36px;">
-            <img src="./src/img/icons/whatsapp.png" alt="" style="width: 36px;">
+            <p>Follow us on</p>
+            <img
+              src="./src/img/icons/facebook.png"
+              alt=""
+              style="width: 36px"
+            />
+            <img
+              src="./src/img/icons/instagram.png"
+              alt=""
+              style="width: 36px"
+            />
+            <img
+              src="./src/img/icons/linkedin.png"
+              alt=""
+              style="width: 36px"
+            />
+            <img
+              src="./src/img/icons/whatsapp.png"
+              alt=""
+              style="width: 36px"
+            />
           </div>
           <!-- ----------------------------------------------------------------------- -->
         </div>
