@@ -1,293 +1,312 @@
 <!DOCTYPE html>
-<!-- ----------------------------------------------------------------------- -->
 <html lang="en">
-  <!-- ----------------------------------------------------------------------- -->
   <head>
-    <!-- ----------------------------------------------------------------------- -->
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, intial-scale=1.0" />
-    <meta name="author" content="David Dadebo" />
-    <!-- ----------------------------------------------------------------------- -->
-    <title>VISUAL SYMPHONY</title>
-    <!-- ----------------------------------------------------------------------- -->
-    <link rel="stylesheet" href="src/styles.css" />
-    <!-- ----------------------------------------------------------------------- -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Visual Symphony</title>
+    <link rel="stylesheet" href="./src/styles.css" />
   </head>
-  <!-- ----------------------------------------------------------------------- -->
-  <!-- ----------------------------------------------------------------------- -->
   <body>
     <!-- ----------------------------------------------------------------------- -->
-    <!-- Navbar -->
-    <!-- ----------------------------------------------------------------------- -->
-    <header>
+    <div class="main-window">
       <!-- ----------------------------------------------------------------------- -->
-      <div class="nav-top"></div>
+      <nav>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Services</a></li>
+          <li><a href="">Contact</a></li>
+          <li><a href=""></a></li>
+        </ul>
+      </nav>
       <!-- ----------------------------------------------------------------------- -->
-      <div id="navbar">
+      <section class="web-screen">
         <!-- ----------------------------------------------------------------------- -->
-        <nav>
-          <div class="nav_mid">
-            <!-- ----------------------------------------------------------------------- -->
-            <!-- Left -->
-            <!-- ----------------------------------------------------------------------- -->
-            <div id="logo">VISUAL SYMPHONY</div>
-            
-            <div class="nav-links">
-              <div>
-                <ul>
-                  <li><a href="#">Home</a></li>
-                </ul>
-              </div>
-              <div>
-                <ul>
-                  <li><a href="#about">About</a></li>
-                </ul>
-              </div>
-              <div>
-                <ul>
-                  <li><a href="#">Services</a></li>
-                </ul>
-              </div>
-              <div>
-                <ul>
-                  <li><a href="#gallery">Gallery</a></li>
-                </ul>
-              </div>
-            </div>
-            <!-- ----------------------------------------------------------------------- -->
-            <form action="/search" method="GET" class="search-form">
-              <input type="text" name="query" placeholder="Search..." class="search-textbox" />
-              <button type="submit" class="search-button">Search</button>
-            </form>
-            <!-- ----------------------------------------------------------------------- -->
+        <div class="main-nav">
+          <div class="search-bar">
+            <input type="text" placeholder="Search..." />
+            <!-- <div class="search-bar-child">#</div> -->
+            <div class="search-icon">#</div>
           </div>
-          <!-- ----------------------------------------------------------------------- -->
-        </nav>
-        <!-- ----------------------------------------------------------------------- -->
-      </div>
-      <!-- ----------------------------------------------------------------------- -->
-    </header>
-    <main>
-      <!-- ----------------------------------------------------------------------- -->
-      <!-- Home -->
-      <!-- ----------------------------------------------------------------------- -->
-      <section id="home">
-        <div class="container">
-          <!-- ----------------------------------------------------------------------- -->
-          <!-- <div class="home-left">
-                <div class="circle"></div>
-              </div> -->
-          <!-- ----------------------------------------------------------------------- -->
-          <div class="home-mid">
-            <h1 class="home-mid-text">Masterpieces of Art</h1>
-            <!-- <button class="home-mid-button">Explore Art</button> -->
+          <div class="right">
+            <div class="profile_img"></div>
           </div>
-          <!-- ----------------------------------------------------------------------- -->
-          <!-- <div class="home-right"></div> -->
-          <!-- ----------------------------------------------------------------------- -->
         </div>
         <!-- ----------------------------------------------------------------------- -->
-      </section>
-      <!-- ----------------------------------------------------------------------- -->
-      <!-- ----------------------------------------------------------------------- -->
-      <section id="about">
-        <div class="container about-main">
-          <div class="about-top">
-            <p>About</p>
-            <h2>VISUAL SYMPHONY</h2>
+        <div class="main-content">
+          <div class="content_1">
+            <div class="content_1_1">
+              <h1>Content-01</h1>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio
+                ut, dolores cupiditate veniam nobis id.
+              </p>
+            </div>
+            <div class="content_1_2">
+              <div class="content_1_2_0 content_1_2_1"></div>
+              <div class="content_1_2_0 content_1_2_2"></div>
+              <div class="content_1_2_0 content_1_2_3"></div>
+            </div>
           </div>
           <!-- ----------------------------------------------------------------------- -->
-          <div class="about-p" style="margin-block: 10vh">
-            <!-- ----------------------------------------------------------------------- -->
-            <p>
-              Welcome to Visual Symphony, a vibrant online gallery showcasing
-              five captivating art forms: Historical Art, Pencil Art, Anime Art,
-              Street Art, and Digital Art. Explore curated galleries for each
-              style, enjoy our Artist Spotlight feature that highlights
-              incredible talent, and join the conversation by leaving comments
-              and sharing your thoughts on your favorite pieces. Dive into the
-              world of creativity,all in one place!.
-            </p>
-            <!-- ----------------------------------------------------------------------- -->
+          <div class="content_2">
+            <div class="content_2_1">
+              <h2>Content-02</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio
+                ut, dolores cupiditate veniam nobis id.
+              </p>
+            </div>
+            <div class="content_2_2">
+              <!-- ----------------------------------------------------------------------- -->
 
-            <!-- ----------------------------------------------------------------------- -->
-          </div>
-        </div>
-      </section>
-      <!-- ----------------------------------------------------------------------- -->
-      <!-- ----------------------------------------------------------------------- -->
-      <section id="gallery" style="margin-bottom: 10vh">
-        <!-- ----------------------------------------------------------------------- -->
-        <div class="container">
-          <!-- ----------------------------------------------------------------------- -->
-          <div class="g-text">
-            <!-- ----------------------------------------------------------------------- -->
-            <div class="g-text-top">
-              <!-- ----------------------------------------------------------------------- -->
-              <div class="about-top">
-                <p>Visit Our</p>
-                <h2>Gallery</h2>
+              <div class="picture-card">
+                <img
+                  src="./src/digital_art/celestial_symphony_by_kareguya_dic6o40-414w-2x.jpg"
+                  class="picture"
+                  alt="Image 1"
+                />
+                <div class="action-bar">
+                  <span class="heart">&#10084;</span>
+                  <div class="menu-container">
+                    <input type="checkbox" id="menu1" class="menu-toggle" />
+                    <label for="menu1" class="menu-btn">&#8942;</label>
+                    <div class="dropdown">
+                      <a href="#">Download</a>
+                      <a href="#">Save</a>
+                      <a href="#">Comment</a>
+                    </div>
+                  </div>
+                </div>
               </div>
               <!-- ----------------------------------------------------------------------- -->
-            </div>
-            <!-- ----------------------------------------------------------------------- -->
-            <p class="g-text-bottom">
-              We have five types of art showcased here.
-            </p>
-            <!-- ----------------------------------------------------------------------- -->
-          </div>
-          <!-- ----------------------------------------------------------------------- -->
-          <div class="gal-grid">
-            <div class="gal-row">
+              <div class="picture-card">
+                <img
+                  src="./src/digital_art/incredibles.jpg"
+                  class="picture"
+                  alt="Image 1"
+                />
+                <div class="action-bar">
+                  <span class="heart">&#10084;</span>
+                  <div class="menu-container">
+                    <input type="checkbox" id="menu2" class="menu-toggle" />
+                    <label for="menu2" class="menu-btn">&#8942;</label>
+                    <div class="dropdown">
+                      <a href="#">Download</a>
+                      <a href="#">Save</a>
+                      <a href="#">Comment</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- card 3 -->
+
+              <div class="picture-card">
+                <img
+                  src="./src/pencil_art/arty (19).jpeg"
+                  class="picture"
+                  alt="Image 1"
+                />
+                <div class="action-bar">
+                  <span class="heart">&#10084;</span>
+                  <div class="menu-container">
+                    <input type="checkbox" id="menu3" class="menu-toggle" />
+                    <label for="menu3" class="menu-btn">&#8942;</label>
+                    <div class="dropdown">
+                      <a href="#">Download</a>
+                      <a href="#">Save</a>
+                      <a href="#">Comment</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- card 4 -->
+
+              <div class="picture-card">
+                <img
+                  src="./src/historic_art/Kanuty_Rusiecki_The_Reaper_1844_LAM-715x1024.jpg"
+                  class="picture"
+                  alt="Image 1"
+                />
+                <div class="action-bar">
+                  <span class="heart">&#10084;</span>
+                  <div class="menu-container">
+                    <input type="checkbox" id="menu4" class="menu-toggle" />
+                    <label for="menu4" class="menu-btn">&#8942;</label>
+                    <div class="dropdown">
+                      <a href="#">Download</a>
+                      <a href="#">Save</a>
+                      <a href="#">Comment</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <!-- ----------------------------------------------------------------------- -->
-              <div class="gal-card">
+              <div class="picture-card">
                 <img
                   src="./src/home/home_gallery/handcrafted-wooden-decorative-mask-sculpture.jpg"
-                  alt=""
+                  class="picture"
+                  alt="Image 1"
                 />
-                <h3>Historical Art</h3>
-                <a class="gal-button" href="./historical_art.html">Explore</a>
+                <div class="action-bar">
+                  <span class="heart">&#10084;</span>
+                  <div class="menu-container">
+                    <input type="checkbox" id="menu5" class="menu-toggle" />
+                    <label for="menu5" class="menu-btn">&#8942;</label>
+                    <div class="dropdown">
+                      <a href="#">Download</a>
+                      <a href="#">Save</a>
+                      <a href="#">Comment</a>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <!-- ----------------------------------------------------------------------- -->
-              <div class="gal-card">
-                <img src="./src/pencil_art/arty (7).jpeg" alt="" />
-                <h3>Pencil Art</h3>
-                <a class="gal-button" href="./pencil_art.html">Explore</a>
-              </div>
-              <!-- ----------------------------------------------------------------------- -->
-              <div class="gal-card">
+
+              <!-- card 6 -->
+
+              <div class="picture-card">
                 <img
-                  src="./src/digital_art/love_dose_12___empathy_by_bnjacob_dgb81ah-350t-2x.jpg"
-                  alt=""
+                  src="./src/digital_art/moon.jpg"
+                  class="picture"
+                  alt="Image 1"
                 />
-                <h3>Digital Art</h3>
-
-                <a class="gal-button" href="./digital_art.html">Explore</a>
+                <div class="action-bar">
+                  <span class="heart">&#10084;</span>
+                  <div class="menu-container">
+                    <input type="checkbox" id="menu6" class="menu-toggle" />
+                    <label for="menu6" class="menu-btn">&#8942;</label>
+                    <div class="dropdown">
+                      <a href="#">Download</a>
+                      <a href="#">Save</a>
+                      <a href="#">Comment</a>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <!-- ----------------------------------------------------------------------- -->
-              <div class="gal-card">
-                <!-- <a href="http://127.0.0.1:5500/Html-Css/gallery.html"> -->
-                <img src="./src/home/art_photos/photo6.jpeg" alt="" />
-                <h3>Street Art</h3>
 
-                <a class="gal-button" href="./street_art.html">Explore</a>
-                <!-- </a> -->
-              </div>
-              <!-- ----------------------------------------------------------------------- -->
-              <div class="gal-card">
+              <!-- card 7 -->
+              <div class="picture-card">
                 <img
-                  src="./src/digital_art/solo_leveling_sung_jinwoo_by_faff0_djbp53x-414w-2x.jpg"
-                  alt=""
+                  src="./src/pencil_art/arty (20).jpeg"
+                  class="picture"
+                  alt="Image 1"
                 />
-                <h3>Anime Art</h3>
+                <div class="action-bar">
+                  <span class="heart">&#10084;</span>
+                  <div class="menu-container">
+                    <input type="checkbox" id="menu7" class="menu-toggle" />
+                    <label for="menu7" class="menu-btn">&#8942;</label>
+                    <div class="dropdown">
+                      <a href="#">Download</a>
+                      <a href="#">Save</a>
+                      <a href="#">Comment</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- card 8 -->
 
-                <a class="gal-button" href="./anime_art.html">Explore</a>
+              <div class="picture-card">
+                <img
+                  src="./src/home/art_photos/photo6.jpeg"
+                  class="picture"
+                  alt="Image 1"
+                />
+                <div class="action-bar">
+                  <span class="heart">&#10084;</span>
+                  <div class="menu-container">
+                    <input type="checkbox" id="menu8" class="menu-toggle" />
+                    <label for="menu8" class="menu-btn">&#8942;</label>
+                    <div class="dropdown">
+                      <a href="#">Download</a>
+                      <a href="#">Save</a>
+                      <a href="#">Comment</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ----------------------------------------------------------------------- -->
+        <footer>
+          <!-- ----------------------------------------------------------------------- -->
+          <div class="footer-content">
+            <div class="footer-content-left">
+              <h3>Visual Symphony</h3>
+              <p>
+                Visual Symphony is a digital space that celebrates five iconic
+                art styles: Historical, Pencil, Anime, <br />
+                Street, and Digital Art. <br />
+                We aim to inspire creativity and connect art lovers worldwide.
+              </p>
+            </div>
+            <div class="footer-content-mid">
+              <h3>Quick Links</h3>
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#services">Services</a></li>
+              </ul>
+            </div>
+            <div class="footer-content-right">
+              <h3>Contact Details</h3>
+              <p>Email: info@visualsymphony.com</p>
+              <p>Phone: +233 50 000 0000</p>
+              <p>Location: Accra, Ghana</p>
+            </div>
+          </div>
+          <!-- ----------------------------------------------------------------------- -->
+          <div class="footer-bottom">
+            <!-- ----------------------------------------------------------------------- -->
+            <div class="footer-b-contain">
+              <!-- ----------------------------------------------------------------------- -->
+              <p style="text-transform: capitalize">
+                &copy; 2025
+                <span style="font-weight: 600; color: #1a1a2e">
+                  Visual Symphony. </span
+                >All rights reserved.
+              </p>
+              <!-- ----------------------------------------------------------------------- -->
+              <div class="footer-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Legal</a>
+                <a href="#">Terms of Service</a>
+              </div>
+              <!-- ----------------------------------------------------------------------- -->
+              <div class="footer-socials">
+                <p>Follow us on</p>
+                <img
+                  src="./src/img/icons/facebook.png"
+                  alt=""
+                  style="width: 36px"
+                />
+                <img
+                  src="./src/img/icons/instagram.png"
+                  alt=""
+                  style="width: 36px"
+                />
+                <img
+                  src="./src/img/icons/linkedin.png"
+                  alt=""
+                  style="width: 36px"
+                />
+                <img
+                  src="./src/img/icons/whatsapp.png"
+                  alt=""
+                  style="width: 36px"
+                />
               </div>
               <!-- ----------------------------------------------------------------------- -->
             </div>
             <!-- ----------------------------------------------------------------------- -->
           </div>
           <!-- ----------------------------------------------------------------------- -->
-          <div
-            class="gal-button"
-            style="
-              width: 30%;
-              margin-inline: auto;
-              text-align: center;
-              margin-top: 10px;
-              padding-block: 20px;
-              font-size: 24px;
-            "
-          >
-            <a href="./gallery.html" style="color: #000000">View All</a>
-          </div>
-          <!-- ----------------------------------------------------------------------- -->
-        </div>
-        <!-- ----------------------------------------------------------------------- -->
+        </footer>
       </section>
-      <!-- ----------------------------------------------------------------------- -->
-      <!-- ----------------------------------------------------------------------- -->
-      <section id="services"></section>
-      <!-- ----------------------------------------------------------------------- -->
-      <!-- ----------------------------------------------------------------------- -->
-    </main>
-    <!-- ----------------------------------------------------------------------- -->
-    <!-- ----------------------------------------------------------------------- -->
-    <footer>
-      <!-- ----------------------------------------------------------------------- -->
-      <div class="footer-content">
-        <div class="footer-content-left">
-          <h3>Visual Symphony</h3>
-          <p>
-            Visual Symphony is a digital space that celebrates five iconic art
-            styles: Historical, Pencil, Anime, <br />
-            Street, and Digital Art. <br />
-            We aim to inspire creativity and connect art lovers worldwide.
-          </p>
-        </div>
-        <div class="footer-content-mid w-fit">
-          <h3>Quick Links</h3>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#gallery">Gallery</a></li>
-            <li><a href="#services">Services</a></li>
-          </ul>
-        </div>
-        <div class="footer-content-right">
-          <h3>Contact Details</h3>
-          <p>Email: info@visualsymphony.com</p>
-          <p>Phone: +233 50 000 0000</p>
-          <p>Location: Accra, Ghana</p>
-        </div>
-      </div>
-      <!-- ----------------------------------------------------------------------- -->
-      <div class="footer-bottom">
-        <!-- ----------------------------------------------------------------------- -->
-        <div class="footer-b-contain">
-          <!-- ----------------------------------------------------------------------- -->
-          <p style="text-transform: capitalize">
-            &copy; 2025
-            <span style="font-weight: 600; color: #1a1a2e">
-              Visual Symphony. </span
-            >All rights reserved.
-          </p>
-          <!-- ----------------------------------------------------------------------- -->
-          <div class="footer-links">
-            <a href="#">Privacy Policy</a>
-            <a href="#">Legal</a>
-            <a href="#">Terms of Service</a>
-          </div>
-          <!-- ----------------------------------------------------------------------- -->
-          <div class="footer-socials">
-            <p>Follow us on</p>
-            <img
-              src="./src/img/icons/facebook.png"
-              alt=""
-              style="width: 36px"
-            />
-            <img
-              src="./src/img/icons/instagram.png"
-              alt=""
-              style="width: 36px"
-            />
-            <img
-              src="./src/img/icons/linkedin.png"
-              alt=""
-              style="width: 36px"
-            />
-            <img
-              src="./src/img/icons/whatsapp.png"
-              alt=""
-              style="width: 36px"
-            />
-          </div>
-          <!-- ----------------------------------------------------------------------- -->
-        </div>
-        <!-- ----------------------------------------------------------------------- -->
-      </div>
-      <!-- ----------------------------------------------------------------------- -->
-    </footer>
-    <!-- ----------------------------------------------------------------------- -->
+    </div>
   </body>
 </html>
