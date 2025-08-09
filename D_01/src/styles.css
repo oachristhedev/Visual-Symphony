@@ -1,44 +1,44 @@
-*{
+* {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: poppins, sans-serif;
 }
 
-h1{
+h1 {
   font-size: 72px;
   font-weight: 500;
 }
 
-h2{
+h2 {
   font-size: 60px;
   font-weight: 500;
 }
 
-h3{
+h3 {
   font-size: 48px;
   font-weight: 500;
 }
 
-h4{
+h4 {
   font-size: 36px;
   font-weight: 500;
 }
 
-h5{
+h5 {
   font-size: 24px;
   font-weight: 500;
 }
 
-p{
-  font-size: 16px;
+p {
+  font-size: 18px;
   font-weight: 300;
+  color: hsl(0, 0%, 40%);
 }
-
 
 /* -------------------------------------------------------------------- */
 
-.main-window{
+.main-window {
   width: 100vw;
   max-width: 100%;
   display: flex;
@@ -49,7 +49,7 @@ p{
   position: relative;
 }
 
-nav{
+nav {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -66,14 +66,14 @@ nav{
   left: 0;
 }
 
-nav a{
+nav a {
   text-decoration: none;
   color: hsl(0, 0%, 30%);
   font-weight: 500;
   letter-spacing: 1px;
 }
 
-nav li{
+nav li {
   list-style: none;
   display: flex;
   flex-direction: column;
@@ -83,7 +83,7 @@ nav li{
 /* Content Screen */
 /* -------------------------------------------------------------------- */
 
-.web-screen{
+.web-screen {
   width: 100%;
   /* height: fit-content; */
   display: flex;
@@ -94,7 +94,7 @@ nav li{
   box-sizing: border-box;
 }
 
-.main-nav{
+.main-nav {
   width: 100%;
   max-width: 100%;
   padding-block: 20px;
@@ -108,8 +108,25 @@ nav li{
   /* position: fixed */
 }
 
+.logo {
+  font-size: 72px;
+  font-weight: 600;
+  background: linear-gradient(
+    to right,
+    #d7220d,
+    #d7730d,
+    #f4ed3f,
+    #5fca45,
+    #2ea6e0,
+    #dd2d90
+  );
+  -webkit-background-clip: text; /* Chrome, Safari */
+  -webkit-text-fill-color: transparent; /* Chrome, Safari */
+  background-clip: text; /* Firefox */
+  color: transparent; /* fallback */
+}
 
-.search-bar{
+.search-bar {
   width: 50%;
   height: 60px;
   display: flex;
@@ -120,7 +137,7 @@ nav li{
   background-color: white;
 }
 
-.search-bar input{
+.search-bar input {
   width: 100%;
   height: 100%;
   display: flex;
@@ -134,7 +151,7 @@ nav li{
   font-size: 18px;
 }
 
-.search-bar-child{
+.search-bar-child {
   width: 100%;
   height: 80%;
   padding: 0 20px;
@@ -143,7 +160,7 @@ nav li{
   border-radius: 25px;
 }
 
-.search-icon{
+.search-icon {
   width: 20%;
   height: 80%;
   padding: 0 20px;
@@ -151,16 +168,16 @@ nav li{
   font-size: 16px;
 }
 
-.profile_img{
+.profile_img {
   height: 50px;
   width: 50px;
   background-color: white;
   border-radius: 50%;
 }
 
-.search-icon{
+.search-icon {
   /* border-left: 1px solid black; */
-  border-radius:0 25px 25px 0;
+  border-radius: 0 25px 25px 0;
   height: 100%;
   width: 10%;
   padding-inline: 20px;
@@ -173,7 +190,7 @@ nav li{
 /* Content */
 /* -------------------------------------------------------------------- */
 
-.main-content{
+.main-content {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -188,18 +205,31 @@ nav li{
 /* Content 01 */
 /* -------------------------------------------------------------------- */
 
-.content_1{
+.content_1 {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(90deg, #1a1a2e 0%, #16213e 100%);
+  /* background: linear-gradient(90deg, #1a1a2e 0%, #16213e 100%); */
+  background-image: url(./home/img_me/bg/bg\ \(1\).jpg);
+  background-size: cover;
   border-radius: 20px;
   color: white;
+
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+  position: relative;
 }
 
-.content_1_1{
+.content_1::after{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+}
+
+.content_1_1 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -207,21 +237,29 @@ nav li{
   padding-block: 5%;
 }
 
+.content_1_1 h1, p{
+  z-index: 1;
+}
+
+.content_1_1 p {
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6);
+}
+
 /* Content 02 */
 /* -------------------------------------------------------------------- */
 
-.content_2{
+.content_2 {
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   gap: 50px;
-  
+
   border-radius: 20px;
 }
 
-.content_2_1{
+.content_2_1 {
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -233,7 +271,7 @@ nav li{
   color: #16213e;
 }
 
-.content_2_2{
+.content_2_2 {
   width: 100%;
   display: flex;
   /* flex-wrap: wrap; */
@@ -245,37 +283,36 @@ nav li{
 
   padding-block: 1%;
   padding-inline: 1%;
-   /* box-shadow: 
+  /* box-shadow: 
     inset 20px 0 20px -20px rgba(0, 0, 0, 0.6),   /* left side */
-    /* inset -20px 0 20px -20px rgba(0, 0, 0, 0.6);  right side */
+  /* inset -20px 0 20px -20px rgba(0, 0, 0, 0.6);  right side */
 }
-
 
 /* Photo Cards */
 /* -------------------------------------------------------------------- */
 
 .picture-card {
-  flex: 0 0 500px;
+  flex: 0 0 400px;
   display: flex;
   flex-direction: column;
   width: 100%;
   /* height: 500px; */
   margin-inline: auto;
+  padding-block: 40px;
 
   background-color: #ffffff;
   border: 1px solid #cccccc;
   border-radius: 12px;
-  
+
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-decoration: none;
   color: #000000;
 }
 
-.picture {
+.picture-card img {
   width: 100%;
-  height: 400px;
-  object-fit: cover;
-  object-position: center;
+  height: 350px;
+  object-fit: contain;
   border-radius: 12px;
 }
 
@@ -285,13 +322,16 @@ nav li{
   justify-content: space-between;
   /* align-items: center; */
   padding-inline: 30px;
-  padding-block: 50px;
+  /* padding-block: 30px; */
   background-color: #ffffff;
   border-top: 1px solid #ffffff;
   min-height: 50px;
   border-radius: 12px;
 }
 
+/* -------------------------------------------------------------------- */
+
+/* 
 .heart {
   font-size: 24px;
   color: gray;
@@ -359,9 +399,10 @@ nav li{
 
 .menu-toggle:not(:checked) + .menu-btn + .dropdown {
   display: none;
-}
+} */
 
-
+/*  ------------------------------------------------------------------------ */
+/* Footer */
 /*  ------------------------------------------------------------------------ */
 footer {
   /* height: 50vh; */
@@ -377,7 +418,7 @@ footer {
 }
 
 .footer-content {
-/* Grid Template 3 columns 2 rows */
+  /* Grid Template 3 columns 2 rows */
   display: flex;
   /* align-items: center; */
   justify-content: space-between;
@@ -390,8 +431,7 @@ footer {
   /* background-color: #cccccc; */
 }
 
-.footer-content-left
-{
+.footer-content-left {
   height: 100%;
   width: 25%;
 
@@ -409,16 +449,15 @@ footer {
   color: #1a1a2e;
 }
 
-.footer-content-left p{
+.footer-content-left p {
   font-size: 20px;
   /* width: 80%; */
   font-weight: 300;
   line-height: 1.5;
-  /* color: hsl(0, 0%, 30%); */
+  color: hsl(0, 0%, 40%);
 }
 
-.footer-content-mid
-{
+.footer-content-mid {
   height: 100%;
   width: 20%;
   display: flex;
@@ -428,33 +467,29 @@ footer {
 
 .footer-content-mid h3 {
   margin-bottom: 20px;
-  /* width: 25%; */
+  width: 25%;
   color: #1a1a2e;
 }
 
-.footer-content-mid ul
-{
+.footer-content-mid ul {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-.footer-content-mid ul li
-{
+.footer-content-mid ul li {
   font-size: 20px;
   font-weight: 500;
   text-transform: capitalize;
   list-style: none;
 }
 
-.footer-content-mid ul li a
-{
+.footer-content-mid ul li a {
   color: #16213e;
   text-decoration: none;
 }
 
-.footer-content-right 
-{
+.footer-content-right {
   height: 100%;
   width: 25%;
   display: flex;
@@ -468,25 +503,24 @@ footer {
   color: #1a1a2e;
 }
 
-.footer-content-right p{
+.footer-content-right p {
   font-size: 20px;
   font-weight: 300;
   line-height: 1.5;
-  /* color: hsl(0, 0%, 30%); */
+  color: hsl(0, 0%, 40%);
 }
-
 
 /*  ------------------------------------------------------------------------ */
 .footer-bottom {
   display: flex;
   align-items: center;
   width: 100%;
-  
+
   /* background-color: #cccccc; */
   border-top: 1px solid #dddddd;
 }
 
-.footer-b-contain{
+.footer-b-contain {
   width: 80%;
   margin-block: 1%;
   margin-inline: auto;
@@ -500,9 +534,10 @@ footer {
 .footer-bottom p {
   font-size: 16px;
   padding-block: 10px;
+  color: hsl(0, 0%, 40%);
 }
 
-.footer-links{
+.footer-links {
   font-size: 16px;
   height: 100%;
   display: flex;
@@ -510,8 +545,9 @@ footer {
   gap: 20px;
 }
 
-.footer-links a{
+.footer-links a {
   text-decoration: none;
+  font-weight: 500;
   color: hsl(0, 0%, 30%);
 }
 
