@@ -316,6 +316,18 @@ nav li {
   border-radius: 12px;
 }
 
+.pic_4{
+  width: 80%;
+  height: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(./home/img_me/street.jpg);
+  background-size: cover;
+  background-position-x: center;
+  margin-inline: 40px;
+}
+
 .action-bar {
   display: flex;
   flex-direction: column;
