@@ -1,0 +1,104 @@
+
+.street_1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+
+  border-radius: 20px;
+}
+
+.street_1_1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-block: 5%;
+  /* background-color: hsl(146, 67%, 48%); */
+  border-radius: 20px;
+  color: #16213e;
+}
+
+.street_2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-auto-rows: 500px;
+  gap: 20px;
+  max-width: 80vw;
+  gap: 20px;
+  padding: 10px;
+}
+
+@media (max-width:1980px) {
+  .street_2 {
+    max-width: 90vw;  }
+}
+
+@media (min-width:1980px) {
+  .street_2 {
+    max-width: 80vw;  }
+}
+
+.street_img{
+    height: 500px;
+    background-size: cover;
+    background-color: green;
+}
+
+.street_img_1{
+    grid-column: span 2; 
+    background-image: url(./anime/IMG-20250810-WA0020.jpg); 
+}
+
+.street_img_2{
+    background-image: url(./anime/IMG-20250810-WA0021.jpg);
+}
+
+.street_img_3{
+    background-image: url(./anime/IMG-20250810-WA0024.jpg);
+    grid-row: span 2;
+    height: 100%; 
+}
+
+.street_img_4{
+    background-image: url(./anime/IMG-20250810-WA0028.jpg);
+    grid-column: span 1;
+}
+
+.street_img_5{
+    background-image: url(./anime/IMG-20250810-WA0026.jpg);
+    grid-column: span 1;
+}
+
+.street_img_6{
+    background-image: url(./home/art_photos/photo2.jpeg);
+    grid-column: span 1;
+}
+
+.street_img_7{
+    background-image: url(./home/art_photos/photo2.jpeg);
+    grid-column: span 1;
+}
+
+.street_img_8{
+    background-image: url(./home/art_photos/photo2.jpeg);
+    grid-column: span 1;
+}
+
+.street_img_9{
+    background-image: url(./home/art_photos/photo2.jpeg);
+    grid-column: span 1;
+}
+
+.street_img_10{
+    background-image: url(./home/art_photos/photo2.jpeg);
+    grid-column: span 1;
+}
+
+.street_img_11{
+    background-image: url(./anime/IMG-20250810-WA0020.jpg); 
+    grid-column: span 3;
+}
