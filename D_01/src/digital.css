@@ -50,51 +50,52 @@
 
 .digital_img_1{
     grid-column: span 2; 
-    background-image: url(./anime/IMG-20250810-WA0020.jpg); 
+    background-image: url(./digital_art/moon.jpg); 
 }
 
 .digital_img_2{
-    background-image: url(./anime/IMG-20250810-WA0021.jpg);
+    background-image: url(./digital_art/celestial_symphony_by_kareguya_dic6o40-414w-2x.jpg);
 }
 
 .digital_img_3{
-    background-image: url(./anime/IMG-20250810-WA0024.jpg);
+    background-image: url(./digital_art/mustang.jpg);
     grid-row: span 2;
     height: 100%; 
 }
 
 .digital_img_4{
-    background-image: url(./anime/IMG-20250810-WA0028.jpg);
+    background-image: url(./digital_art/zoro_x_pirates_of_the_caribbean_1_by_brightideabase_dh6e34h-350t-2x.jpg);
     grid-column: span 1;
 }
 
 .digital_img_5{
-    background-image: url(./anime/IMG-20250810-WA0026.jpg);
+    background-image: url(./digital_art/island.jpg);
     grid-column: span 1;
 }
 
 .digital_img_6{
-    background-image: url(./home/art_photos/photo2.jpeg);
+    background-image: url(./digital_art/space.jpg);
     grid-column: span 1;
+    background-size: cover;
 }
 
 .digital_img_7{
-    background-image: url(./home/art_photos/photo2.jpeg);
+    background-image: url(./digital_art/sentinels_of_the_shrouded_forest_by_bogi380_dhbr5kg-414w-2x.jpg);
     grid-column: span 1;
 }
 
 .digital_img_8{
-    background-image: url(./home/art_photos/photo2.jpeg);
+    background-image: url(./digital_art/mortal_kombat_ninja___princess_peach.jpg);
     grid-column: span 1;
 }
 
 .digital_img_9{
-    background-image: url(./home/art_photos/photo2.jpeg);
+    background-image: url(./digital_art/red\ sun.jpg);
     grid-column: span 1;
 }
 
 .digital_img_10{
-    background-image: url(./home/art_photos/photo2.jpeg);
+    background-image: url(./digital_art/astronaut.jpg);
     grid-column: span 1;
 }
 
