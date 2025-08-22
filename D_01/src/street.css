@@ -50,26 +50,26 @@
 
 .street_img_1{
     grid-column: span 2; 
-    background-image: url(./anime/IMG-20250810-WA0020.jpg); 
+    background-image: url(./home/art_photos/photo1.jpeg); 
 }
 
 .street_img_2{
-    background-image: url(./anime/IMG-20250810-WA0021.jpg);
+    background-image: url(./home/art_photos/photo3.jpeg);
 }
 
 .street_img_3{
-    background-image: url(./anime/IMG-20250810-WA0024.jpg);
+    background-image: url(./home/art_photos/photo4.jpeg);
     grid-row: span 2;
     height: 100%; 
 }
 
 .street_img_4{
-    background-image: url(./anime/IMG-20250810-WA0028.jpg);
+    background-image: url(./home/art_photos/photo5.jpeg);
     grid-column: span 1;
 }
 
 .street_img_5{
-    background-image: url(./anime/IMG-20250810-WA0026.jpg);
+    background-image: url(./home/art_photos/photo6.jpeg);
     grid-column: span 1;
 }
 
@@ -79,26 +79,26 @@
 }
 
 .street_img_7{
-    background-image: url(./home/art_photos/photo2.jpeg);
+    background-image: url(./home/art_photos/photo7.jpeg);
     grid-column: span 1;
 }
 
 .street_img_8{
-    background-image: url(./home/art_photos/photo2.jpeg);
+    background-image: url(./home/art_photos/photo8.jpeg);
     grid-column: span 1;
 }
 
 .street_img_9{
-    background-image: url(./home/art_photos/photo2.jpeg);
+    background-image: url(./home/art_photos/photo9.jpeg);
     grid-column: span 1;
 }
 
 .street_img_10{
-    background-image: url(./home/art_photos/photo2.jpeg);
+    background-image: url(./home/img_me/bg/bg\ \(1\).jpg);
     grid-column: span 1;
 }
 
 .street_img_11{
-    background-image: url(./anime/IMG-20250810-WA0020.jpg); 
+    background-image: url(./home/art_photos/photo3.jpeg); 
     grid-column: span 3;
 }
