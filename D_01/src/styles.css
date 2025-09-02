@@ -276,7 +276,6 @@ nav li {
 .content_2_2 {
   width: 100%;
   display: flex;
-  /* flex-wrap: wrap; */
   gap: 20px;
   overflow-x: auto;
   /* background-color: #16213e; */
